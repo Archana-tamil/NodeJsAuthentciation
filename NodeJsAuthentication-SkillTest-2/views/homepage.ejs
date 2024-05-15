@@ -1,0 +1,20 @@
+<section>
+    <h1>Hey,Welcome to the Home Page. Thank You for registering into our webpage!!!...</h1>
+    <div>
+        <button type="button" class="btn btn-outline-danger" onclick="signOut()">Sign Out</button>
+        <button type="button" class="btn btn-outline-primary" onclick="resetPassword()">Change Password</button>
+    </div>  
+</section>
+
+    <script>
+            function signOut() {
+           
+            window.location.href = "/user/signout";
+        }
+
+      
+        function resetPassword() {
+           
+            window.location.href = "/user/change-password";
+        }
+    </script>
